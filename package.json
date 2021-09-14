@@ -1,5 +1,12 @@
 {
+  "port": 5013,
+  "name": "queswiki",
+  "privateWikiName": "priwiki",
+  "userName": "Jacques",
   "scripts": {
+    "install:wikiServer": "node -e \"require('./scripts/installServer').install()\"",
+    "uninstall:wikiServer": "node -e \"require('./scripts/installServer').uninstall()\"",
+    "start": "node -e \"require('./scripts/startWiki')()\"",
     "build": "node -e \"require('./scripts/build-wiki')()\""
   },
   "dependencies": {
@@ -8,5 +15,10 @@
   "devDependencies": {
     "html-minifier-terser": "6.0.2",
     "workbox-cli": "6.3.0"
+  },
+  "optionalDependencies": {
+    "node-linux": "0.1.12",
+    "node-mac-user": "0.1.10",
+    "node-windows": "1.0.0-beta.5"
   }
 }
