@@ -1,12 +1,13 @@
 author: Mohammad Rahmani
 core-version: >=5.1.22
-created: 20200605095927882
+created: 20210915071235120
 dependents: 
-description: Tiddler Commander
+description: batch processing tiddlers
 list: readme history license authors
-modified: 20200605095927882
+modified: 20210915071235120
+name: Tiddler Commander
 plugin-type: plugin
-source: https://github.com/kookma/Shiraz
+source: https://github.com/kookma/TW-Commander
 title: $:/plugins/kookma/commander
 type: application/json
-version: 2.1.0
+version: 2.1.2

@@ -9,7 +9,8 @@ const COMMIT_INTERVAL = (1000 * 60 * 60) / 2;
 const tiddlyWikiRepo = path.join(path.dirname(__filename), '..');
 module.exports.tiddlyWikiRepo = tiddlyWikiRepo;
 
-const tiddlyWikiFolder = path.join(tiddlyWikiRepo, wikiFolderName);
+// const tiddlyWikiFolder = path.join(tiddlyWikiRepo, wikiFolderName);
+const tiddlyWikiFolder = path.join(tiddlyWikiRepo);
 
 const privateTiddlyWikiRepo = path.join(tiddlyWikiRepo, '..', privateWikiName);
 module.exports.privateTiddlyWikiRepo = privateTiddlyWikiRepo;

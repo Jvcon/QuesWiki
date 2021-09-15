@@ -47,7 +47,10 @@
     "linonetwo/preview-glass",
     "linonetwo/service-worker",
     "linonetwo/source-control-management",
-    "linonetwo/sub-wiki"
+    "linonetwo/sub-wiki",
+	"kookma/commander",
+	"kookma/shiraz",
+	"kookma/todolist"
   ],
   "themes": [
     "tiddlywiki/vanilla",

@@ -1,0 +1,15 @@
+created: 20210915060846470
+modified: 20210915060846470
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default/map
+type: text/vnd.tiddlywiki
+
+{
+ "8266b438-1efd-4a78-aff1-4818957197a7": {
+  "x": 0,
+  "y": 0
+ },
+ "6c2227bb-c4d6-4f0d-80d8-b0f7efb0dfbb": {
+  "x": 100,
+  "y": 100
+ }
+}
